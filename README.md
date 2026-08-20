@@ -31,6 +31,13 @@ python3 -m http.server 8137
 - Heat detections: [VIIRS Thermal Hotspots](https://services9.arcgis.com/RHVPKKiFTONKtxq3/arcgis/rest/services/Satellite_VIIRS_Thermal_Hotspots_and_Fire_Activity/FeatureServer/0), filtered to `hours_old <= 24`
 - AQI contours: [EPA AirNow Latest Contours (Combined)](https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/AirNowLatestContoursCombined/FeatureServer/0), `gridcode` = AQI category 1–6
 
+## What did it cost to build?
+
+The whole thing — planning, building, live-debugging the MapLibre worker issue, and
+verifying in the browser — was one Claude Code session: **$15.66**.
+
+![Claude Code usage panel showing a total session cost of $15.66](session-cost.png)
+
 ## The data-viz beat
 
 The EPA AQI palette is the standard — and it is not colorblind-safe. Run it through

@@ -38,6 +38,20 @@ verifying in the browser — was one Claude Code session: **$15.66**.
 
 ![Claude Code usage panel showing a total session cost of $15.66](session-cost.png)
 
+## The webinar, as heard by a picture frame
+
+A [Whisperframe](https://whisperframe.com) was listening during the webinar and
+turned the conversation into art as we went — you can watch the session drift from
+audience-map icebreakers into wildfire smoke and honest color. Full gallery
+[here](https://whisperframe.com/share/_T-n7l6zq57lkQHbcGkG4), images in
+[`whisperframe/`](whisperframe/):
+
+| | |
+|---|---|
+| ![Global Geography Game Challenge](whisperframe/01-global-geography-game-challenge.png) <br> *Global Geography Game Challenge* | ![Forty-Eight Nations Connected](whisperframe/02-forty-eight-nations-connected.png) <br> *Forty-Eight Nations Connected* |
+| ![Global Data Threads Across Continents](whisperframe/03-global-data-threads-across-continents.png) <br> *Global Data Threads Across Continents* | ![Colors Speaking Truth to Data](whisperframe/04-colors-speaking-truth-to-data.png) <br> *Colors Speaking Truth to Data* |
+| ![Fire and Air Digital Landscape](whisperframe/05-fire-and-air-digital-landscape.png) <br> *Fire and Air Digital Landscape* | ![Global Networks Connect Communities Worldwide](whisperframe/06-global-networks-connect-communities-worldwide.png) <br> *Global Networks Connect Communities Worldwide* |
+
 ## The data-viz beat
 
 The EPA AQI palette is the standard — and it is not colorblind-safe. Run it through

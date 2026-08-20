@@ -7,6 +7,17 @@ the AQI category where you clicked, and the nearest active fire.
 
 Built live during a Data Visualization Society webinar (Aug 2026).
 
+## What it looks like
+
+The default view — AQI contours, last-24h satellite heat, and fire perimeters on a
+dark basemap, with a legend that teaches the scale:
+
+![Default view: North America with AQI contours, heat detections, and the AQI legend](screenshots/default-view.jpg)
+
+Click anywhere and the panel answers the question — verdict first, evidence under it:
+
+![After clicking near a fire in Washington: red 'Unhealthy — everyone limit time outside' verdict, AQI 151–200 chip, and the Ptarmigan Fire 8.7 mi southwest](screenshots/click-answer.jpg)
+
 ## Run it
 
 No build step. Serve the folder over any static HTTP server (ES modules and the

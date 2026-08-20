@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Should I Go Outside?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/maplibre-gl.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map"></div>
+
+  <header id="masthead">
+    <h1>Should I Go Outside?</h1>
+    <p>Wildfires, smoke, and air quality — right now, across North America.</p>
+  </header>
+
+  <aside id="panel" aria-live="polite">
+    <div id="panel-content">
+      <div class="empty-state">
+        <p class="empty-title">Click anywhere on the map</p>
+        <p class="empty-sub">We'll check the air where you clicked and find the nearest active fire.</p>
+        <button id="locate-btn" type="button">◎ Use my location</button>
+      </div>
+    </div>
+  </aside>
+
+  <section id="legend" aria-label="Map legend">
+    <h2>Air Quality Index <span class="legend-sub">EPA categories</span></h2>
+    <ul id="aqi-scale"></ul>
+    <div class="legend-divider"></div>
+    <ul class="legend-keys">
+      <li><span class="key-perimeter"></span>Active fire perimeter</li>
+      <li><span class="key-hotspot"></span>Satellite heat, last 24 h</li>
+    </ul>
+    <p class="legend-note">Colors follow the EPA standard — which isn’t colorblind-safe, so names&nbsp;+&nbsp;numbers always ride along.</p>
+    <p class="legend-status" id="status-line">Loading data…</p>
+    <p class="legend-credits">NIFC/WFIGS · NASA FIRMS VIIRS · EPA AirNow · © OpenFreeMap, OpenMapTiles, OSM</p>
+  </section>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
